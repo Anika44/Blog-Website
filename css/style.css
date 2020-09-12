@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "pt-serif", 'sans-serif';
+}
+
+
+header{
+	height: 78px;
+}
+.navbar{
+	padding-top: 0 !important;
+}
+	.logo{
+
+    background: #1a54e7;
+   padding-top: 20px;
+    padding-bottom: 22px;
+    padding-right: 35px;
+    padding-left: 40px;
+    position: relative;
+}
+.logo a{
+	 font-size: 24px;
+    color: white;
+}
+.logo:before{
+	background: #1a54e7;
+	content: "";
+ position: absolute;
+ top: 0;
+ right: 100%;
+ bottom: 0;
+ left: -2000px;
+ } 
+.nav ul{
+padding: 0;
+margin: 0;
+}
+
+.nav ul li {
+    color: #1a54e7;
+    padding-right: 24px;
+}
+
+.nav ul li a{
+font-size: 18px;
+padding: 22px 13px;
+}
+
+.nav ul li.active a{
+position: relative;
+
+}
+.nav ul li.active a:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #1a54e7;
+	height: 3px;
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.nav ul li.active a:hover:after{
+opacity: 1;
+}
+
+.nav2 ul {
+    margin-right: 80px!important;
+}
+.nav2 ul li{
+padding-right: 20px;
+}
+.nav2 ul li a{
+color: #b2b2b2;
+    font-size: 18px;
+}
+.carousel-caption{
+	padding-bottom: 11.25rem;
+}
+.content{
+	position: relative;
+	}
+	.content h2{
+		color: white;
+		text-decoration: none !important; 
+		padding-top: 20px;
+		font-size: 30px;
+	}
+
+.catagory {
+    position: absolute;
+    padding-top: 140px;
+    left: 0;
+    font-size: 14px;
+}
+.catagory	a{
+
+    text-decoration: none;
+    padding: 10px 18px;
+    background: #1a54e7;
+    color: white;
+}
+.date{
+	position: absolute;
+    padding-top: 135px;
+    right: 0;
+    font-size: 14px;
+}
+.date p{
+	color: #b0b0b0;
+}
+.date a{
+	padding-left: 10px;
+}
+.second-section{
+	background: #f6f6f6;
+}
+.trip-image{
+	position: relative;
+}
+.trip{
+position: relative;
+}
+.trip-image{
+	position: relative;
+}
+.trip h2{
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 1.2;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+.trip p{
+	color: #b0b0b0;
+ font-size: 14px;
+	}
+.trip p a{
+	padding-left: 10px;
+}
+
+}
+.trip h2{
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 1.2;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+.trip p{
+	color: #b0b0b0;
+ font-size: 14px;
+	}
+.trip p a{
+	padding-left: 10px;
+}
+
+.cat {
+    padding: 10px 18px;
+    background: #d90445;
+    position: absolute;
+    /* color: white; */
+    bottom: 50%;
+    left: 0;
+    font-size: 14px;
+    transform: translateY(50%)
+}
+.cat a{
+	text-decoration: none;
+	color: #fae0e8;
+}
+.cat2 {
+	 padding: 10px 18px;
+    background: black;
+    position: absolute;
+    /* color: white; */
+    bottom: 50%;
+    left: 0;
+    font-size: 14px;
+    transform: translateY(50%)
+}
+.cat2 a{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.cat3{
+	color: white;
+    padding: 10px 18px;
+    background: #d90445;
+    position: absolute;
+    /* color: white; */
+    bottom: 10%;
+    left: -22%;
+    font-size: 14px;
+    transform: translate(10%,22%);
+
+}
+.cat3 a{	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+.banner {
+
+	position: relative;
+}
+.banner-img{
+	position: relative;
+}
+
+.content p{
+color: white;
+}
+.fashion {
+    background: #8200b2;
+}
+
+.newsletter-section{
+	background-image: url(../Images/newsletterl.jpg);
+	height: 450px;
+
+}
+.searchbox h1{
+	color: #ffffff;
+	padding: 0;
+	font-size: 48px;
+}
+.searchbox p{
+	color: #8baeff;
+	padding: 0;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+form{
+	
+}
+.search-box{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+
+input {
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	padding-left: 10px;
+	border: 0;
+	transition: .5s;
+}
+input[type="text"]
+{
+	background: 	#2c6cff;
+	width: 	300px;
+	height: 	50px;
+	border-radius: 30px;
+}
+input[type="submit"]
+{
+	position: 	relative;	
+	left: -40px;
+	border-radius: 30px;
+	width: 	130px;
+	height: 50px;
+	border: none;	
+	outline:none;
+	cursor: 	pointer;		
+	background: #ffffff;
+	color: 	#1a54e7;	
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.footer-content p{
+	color: #a7acbc;
+	font-size: 18px;
+	text-decoration: none;
+	
+}
